@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    
+    <div class="calculator-container">
+        <div>
+            <h1>
+                Calculator
+            </h1>
+        </div>
+        <div class="second-containor">
+            <div id="show" class="input-Field">
+
+            </div>
+            <div class="btn">
+                <button class="button-ac" title="clear" onclick="clickAC()">AC</button>
+                <button class="button-opr" title="%" onclick="clickPer('%')">%</button>
+                <button class="button-opr" title="/" onclick="clickDiv('/')">/</button>
+                <button class="button-opr" title="x" onclick="clickMul('*')">x</button>
+                <br>
+                <button class="button" title="7" onclick="click7('7')">7</button>
+                <button class="button" title="8" onclick="click8('8')">8</button>
+                <button class="button" title="9" onclick="click9('9')">9</button>
+                <button class="button-opr" title="-" onclick="clickSub('-')">-</button>
+                <br>
+                <button class="button" title="4" onclick="click4('4')">4</button>
+                <button class="button" title="5" onclick="click5('5')">5</button>
+                <button class="button" title="6" onclick="click6('6')">6</button>
+                <button class="button-opr" title="+" onclick="clickAdd('+')">+</button>
+                <br>
+                <button class="button" title="1" onclick="click1('1')">1</button>
+                <button class="button" title="2" onclick="click2('2')">2</button>
+                <button class="button" title="3" onclick="click3('3')">3</button>
+                <br>
+                <button class="button" title="0" onclick="click0('0')">0</button>
+                <button class="button" onclick="click7('.')">.</button>
+                <button class="button-del" title="delete" onclick="clickDel()">Del</button>
+                <button class="button-equal" onclick="onclickEqual()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

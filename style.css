@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(red, green, blue);
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.second-containor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 30px;
+    top: 150px;
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 10px;
+    background-color: lightslategray;
+    box-shadow: 10px 10px 15px black;
+}
+
+
+.input-Field {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px;
+    font-size: xx-large;
+    overflow: hidden;
+}
+
+.btn {
+    margin: 20px;
+    position: relative;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.button:hover{
+    background-color: white;
+    color: grey;
+}
+
+.button-ac {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.button-ac:hover{
+   background-color: white;
+   color: red;
+}
+
+.button-del {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.button-del:hover{
+    background-color: white;
+    color: red;
+ }
+ 
+
+.button-equal {
+    background-color: green;
+    width: 50px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.button-equal:hover{
+    background-color: white;
+    color: green;
+ }
+ 
+
+
+.button-opr {
+    background-color: lightskyblue;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.button-opr:hover{
+    background-color: white;
+    color: lightskyblue;
+ }
+
+ 
+@media only screen and (max-width: 600px) {
+    .calculator-container {
+        width: 90%;
+    }
+}
+ 
